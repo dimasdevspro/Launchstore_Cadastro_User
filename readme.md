@@ -23,7 +23,7 @@
 
 <p>Detalhes do Projeto:</p>
 <ul>
- <li>Criação de Listagem de Receitas;</li>
+ <li>Desenvolvimento de Cadastro de Usuários;</li>
 </ul>
 
 ### Status do Projeto 
@@ -76,10 +76,10 @@ $ https://code.visualstudio.com/
 # Acesse o terminal/cmd de sua plataforma (Win, Linux, etc)
 
 # Clone este repositório com o seguinte comando abaixo
-$ git clone https://github.com/dimasdevspro/Launchstore_Listando_produtos
+$ git clone https://github.com/dimasdevspro/Launchstore_Cadastro_User
 
 # Ainda no terminal, acesse a pasta com mais um comando
-$ cd Launchstore_Listando_produtos
+$ cd Launchstore_Cadastro_User
 
 # Agora digite este comando, para editar/testar o projeto
 $ code .
@@ -96,7 +96,7 @@ Instalação de Dependências "Express", "Nodemon", "Nunjucks", "Browsersync", "
 $ "New Terminal"
 
 # Certifique-se que o terminal está com o caminho de sua pasta, i.e
-$ /Launchstore_Listando_produtos/
+$ /Launchstore_Cadastro_User/
 
 # Digite o comando no terminal para instalar o Express
 $ npm install express
@@ -117,7 +117,7 @@ $ npm install browser-sync npm-run-all
 "scripts": {
     "start": "npm-run-all -p nodemon browser-sync",
     "nodemon": "nodemon src/server.js",
-    "browser-sync": "browser-sync start --proxy http://localhost:3335 --files 'public, src/app/admin, src/app/views'"
+    "browser-sync": "browser-sync start --proxy http://localhost:3336 --files 'public, src/app/admin, src/app/views'"
   },
 
 # Digite o comando no terminal para instalar o "Postgre"
