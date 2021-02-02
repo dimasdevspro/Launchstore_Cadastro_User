@@ -44,7 +44,9 @@ Concluído
 ### Demonstração da Aplicação 
 [↩](#indice)
 
-<h1 align="center"><img src="screenshots/Launchstore_Listando_Produtos.gif" height="350" weigth="350"></h1>
+<h1 align="center"><img src="screenshots/LaunchStore_Cadastro_User1.gif" height="350" weigth="350"></h1>
+<h1 align="center"><img src="screenshots/LaunchStore_Cadastro_User2.gif" height="350" weigth="350"></h1>
+<h1 align="center"><img src="screenshots/LaunchStore_Cadastro_User3.gif" height="350" weigth="350"></h1>
 
 
 

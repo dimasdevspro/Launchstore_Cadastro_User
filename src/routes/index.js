@@ -8,7 +8,7 @@ const users = require('./users')
 routes.get("/", HomeController.index);
 
 routes.use('/products', products)
-routes.use('/users', users)
+routes.use("/users", users)
 
 //Views
 routes.get("/views/about", function(req, res){
@@ -21,7 +21,7 @@ routes.get("/ads/create", function(req, res){
 });
 
 routes.get('/accounts', function(req, res){
-    return res.redirect("/users/registers")
+    return res.redirect("/users/register")
 })
 
 module.exports = routes

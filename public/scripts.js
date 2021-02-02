@@ -30,7 +30,7 @@ const Mask = {
         } else {
             value = value.replace(/(\d{3})(\d)/, "$1.$2")
 
-            value = value.replace(/(\d{3})(\d)/, "$1/$2")
+            value = value.replace(/(\d{3})(\d)/, "$1.$2")
 
             value = value.replace(/(\d{3})(\d)/, "$1-$2")
     }
@@ -188,7 +188,7 @@ const Lightbox = {
 const Validate = {
     apply(input, func){
         
-        Validade.clearErrors(input)
+        Validate.clearErrors(input)
 
         let results = Validate[func](input.value) // Mask.formatBRL
         input.value = results.value
